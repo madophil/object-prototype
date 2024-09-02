@@ -59,4 +59,7 @@ let superhero5 ={
 };
 
 superhero = [superhero1,superhero2,superhero3,superhero4,superhero5]
-console.log(superhero)
+console.log(superhero);
+function superhero(){
+}
+
