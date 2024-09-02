@@ -62,4 +62,8 @@ superhero = [superhero1,superhero2,superhero3,superhero4,superhero5]
 console.log(superhero);
 function superhero(){
 }
+let addsuperheros = new superhero
+superhero.prototype.addproperty = function(param1,param2){
+    this[param1]=param2
+}
 
