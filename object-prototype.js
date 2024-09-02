@@ -64,6 +64,9 @@ function mysuperhero(){
 
 }
 let addsuperhero= new mysuperhero
+mysuperhero.prototype.addproperty = function(param1,param2){
+    this[param1]=param2
+}
 
 
 
