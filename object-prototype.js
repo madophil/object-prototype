@@ -36,4 +36,27 @@ let superhero1 ={
     'name':'Ananse',
     'strenght':'intelligence',
     'weakness':'greed',
-}
+};
+let superhero2={
+    'name':'Kofi',
+    'strenght':'fast runner',
+    'weakness':'pepper',
+};
+let superhero3 ={
+    'name':'Akua',
+    'strenght':'beauty',
+    'weakness':'boyz',
+};
+let superhero4 ={
+    'name':'Ama',
+    'strenght':'wasitpower',
+    'weakness':'greed',
+};
+let superhero5 ={
+    'name':'junior',
+    'strenght':'fight',
+    'weakness':'greed',
+};
+
+superhero = [superhero1,superhero2,superhero3,superhero4,superhero5]
+console.log(superhero)
