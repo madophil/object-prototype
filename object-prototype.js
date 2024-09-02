@@ -1,4 +1,5 @@
-function myObject() {
+/***
+ * function myObject() {
     this.name='ben'
 }
 
@@ -19,4 +20,20 @@ myObject.prototype.addProperty = function(param1, param2){
     this[param1]=param2
 }
 nameObj.addProperty('age', 25)
-console.log(nameObj)
+console.log(nameObj)*/
+
+/**
+ * array of supper heros
+ * inside that array we will have object (name, and power and weakness)
+ * initially the array should be empty. find a way to add the supper heros to that array
+ * add 2 prototype functions to the object (i) to add property (ii) remove property from the object
+ * 
+ * 
+ */
+
+let superhero =[];
+let superhero1 ={
+    'name':'Ananse',
+    'strenght':'intelligence',
+    'weakness':'greed',
+}
