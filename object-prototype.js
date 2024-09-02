@@ -67,6 +67,7 @@ let addsuperhero= new mysuperhero
 mysuperhero.prototype.addproperty = function(param1,param2){
     this[param1]=param2
 }
-
+addsuperhero.addproperty('name','kathey')
+console.log(addsuperhero)
 
 
